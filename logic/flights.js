@@ -1,3 +1,4 @@
+"use strict";
 function Flights() {
     function calculateNumberOfFlights(passangers, capacity) {
         if (passangers % 1 != 0 || passangers < 1) {
